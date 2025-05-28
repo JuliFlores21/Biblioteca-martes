@@ -20,4 +20,8 @@ public class Libro {
     public void devolver() {
         disponible = true;
     }
+
+    public String getTitulo(){
+        return titulo;
+    }
 }
